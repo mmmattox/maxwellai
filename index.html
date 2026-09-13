@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MaxwellAI — Digital software & tools</title>
+  <meta name="description" content="MaxwellAI sells digital software products and downloadable tools online, including browser extensions and digital productivity packs." />
+  <style>
+    :root {
+      --bg: #0b0f14;
+      --card: #121821;
+      --text: #e8eef7;
+      --muted: #9aa8bc;
+      --accent: #5b8cff;
+      --line: #1e2a3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, #1a2740 0%, var(--bg) 55%);
+      color: var(--text);
+      line-height: 1.55;
+      min-height: 100vh;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 64px 24px 80px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid #2a4a86;
+      background: #132038;
+      padding: 6px 10px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: clamp(2rem, 4vw, 2.6rem);
+      line-height: 1.15;
+      margin: 0 0 12px;
+      letter-spacing: -0.02em;
+    }
+    .lead {
+      color: var(--muted);
+      font-size: 1.1rem;
+      margin: 0 0 28px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 22px 22px 18px;
+      margin: 0 0 16px;
+    }
+    h2 {
+      font-size: 1rem;
+      margin: 0 0 10px;
+      letter-spacing: 0.01em;
+    }
+    p, li { color: var(--muted); }
+    ul { margin: 0; padding-left: 1.15rem; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .row {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 1fr;
+    }
+    @media (min-width: 640px) {
+      .row { grid-template-columns: 1fr 1fr; }
+    }
+    footer {
+      margin-top: 28px;
+      color: #7f8da0;
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="badge">Digital software &amp; tools</div>
+    <h1>MaxwellAI</h1>
+    <p class="lead">
+      We sell digital software products and downloadable tools online — including browser extensions and digital productivity packs for individuals and small businesses.
+    </p>
+
+    <div class="card">
+      <h2>What we sell</h2>
+      <ul>
+        <li>Browser extensions and utility software</li>
+        <li>Digital productivity packs (templates, checklists, micro-tools)</li>
+        <li>Instant digital delivery — no physical goods, no in-person sales</li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <div class="card">
+        <h2>How purchasing works</h2>
+        <p>
+          Customers buy through secure online checkout (Stripe Payment Links and product listings). Delivery is digital and automatic.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Support</h2>
+        <p>
+          Email: <a href="mailto:mmattox10@gmail.com">mmattox10@gmail.com</a><br />
+          Response: within 2 business days
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Business details</h2>
+      <p>
+        Operated as an individual / sole proprietor digital goods business.
+        Statement descriptor and customer receipts show <strong>MaxwellAI</strong>.
+      </p>
+    </div>
+
+    <footer>
+      © <span id="y"></span> MaxwellAI · Digital products sold online
+    </footer>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+</body>
+</html>
