@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mmmattox.github.io/maxwellai/sitemap.xml
