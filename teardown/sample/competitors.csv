@@ -1,0 +1,4 @@
+name,surface,rating_or_signal,price_analog,local_or_upload,notes,source,fetched
+Smallpdf,Chrome Web Store,4.6 from 3K ratings (on-page),Pro via smallpdf.com (official $ BLIND on this pass),upload,"Listing pushes upload + Pro; updated Jul 16 2026; v0.23.21",CWS Smallpdf detail page,2026-09-13
+iLovePDF,Official pricing page,Trustpilot 4.9 (site claim),$5/mo annual or $9/mo Premium,upload,"Free limited; Premium unlocks unlimited + signatures + AI credits",https://www.ilovepdf.com/pricing,2026-09-13
+PrintFriendly,Chrome Web Store (prior scout),1M users / 4.6 (SKU-SCOUT Aug 30 — re-verify before client use),free consumer,print/PDF,"Adjacent not paid local-merge analog",SKU-SCOUT.md,2026-08-30
